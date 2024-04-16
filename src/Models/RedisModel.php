@@ -1,12 +1,12 @@
 <?php
 
-namespace Moox\Builder\Models;
+namespace Moox\RedisModel\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Item extends Model
+class RedisModel extends Model
 {
-    protected $table = 'items';
+    protected $table = 'redis_models';
 
     protected $fillable = [
         'name',
